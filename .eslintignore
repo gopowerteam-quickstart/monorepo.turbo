@@ -8,13 +8,4 @@ es/
 lib/
 _site/
 dist/
-
-dist
-
-!.cz-config.js
-!.lintstagedrc.js
-!.babelrc.js
-
-
-!.request-generate.config.js
-bin/index.js
+bin/
