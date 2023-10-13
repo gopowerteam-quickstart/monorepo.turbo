@@ -1,7 +1,7 @@
 {
   "name": "playground",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev:request": "ts-node ./src/request/index.ts",
     "dev:request-generate": "ts-node ./src/request-generate/index.ts"
