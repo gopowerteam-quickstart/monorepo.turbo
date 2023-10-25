@@ -3,10 +3,10 @@ module.exports = {
   env: {
     node: true,
     browser: true,
-    es2022: true
+    es2022: true,
   },
   extends: ['@gopowerteam/eslint-config'],
   rules: {
     // Your custom rules
-  }
+  },
 }

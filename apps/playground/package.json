@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev:request": "ts-node ./src/request/index.ts",
-    "dev:request-generate": "ts-node ./src/request-generate/index.ts"
+    "dev": "ts-node ./src/index.ts"
   },
   "dependencies": {
-    "@gopowerteam/request": "*",
-    "@gopowerteam/request-generate": "*"
+    "a": "workspace:*",
+    "b": "workspace:*"
   },
   "devDependencies": {
     "ts-node": "^10.9.1",
