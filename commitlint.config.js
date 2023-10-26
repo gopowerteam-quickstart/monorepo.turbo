@@ -1,7 +1,22 @@
 module.exports = {
-  // 采用 cz 自定义的提交规范, > .cz-config.js
-  extends: ['cz'],
+  extends: ['@commitlint/config-conventional'],
   rules: {
-    // 自定义规则
+    'type-enum': [2, 'always',
+      [
+        'build',
+        'chore',
+        'ci',
+        'docs',
+        'feat',
+        'fix',
+        'improvement',
+        'perf',
+        'refactor',
+        'revert',
+        'style',
+        'test',
+        'release',
+      ],
+    ],
   },
 }

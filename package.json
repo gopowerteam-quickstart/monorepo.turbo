@@ -4,14 +4,13 @@
   "private": true,
   "packageManager": "pnpm@7.12.0",
   "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
+    "pnpm": ">=8.0.0",
+    "node": ">=18.0.0"
   },
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
-    "dev:playground": "turbo run dev --filter playground",
+    "dev": "turbo run dev --filter playground",
     "clean": "rimraf node_modules **/*/node_modules",
     "prerelease": "pnpm build",
     "release": "bumpp",
@@ -36,11 +35,6 @@
     "tsup": "7.2.0",
     "turbo": "latest",
     "typescript": "5.2.2"
-  },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional"
-    ]
   },
   "config": {
     "commitizen": {
